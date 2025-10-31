@@ -1,0 +1,65 @@
+окт. 31, 2025 11:26:03 AM ExceptionLogger logException
+SEVERE: Ошибка
+CustomNumberFormatException: Строка '45.6' не является числом
+	at NumberConverter.convertToNumber(NumberConverter.java:43)
+	at NumberConverter.testConversion(NumberConverter.java:60)
+	at NumberConverter.main(NumberConverter.java:81)
+Caused by: java.lang.NumberFormatException: For input string: "45.6"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at NumberConverter.convertToNumber(NumberConverter.java:39)
+	... 2 more
+
+окт. 31, 2025 11:26:03 AM ExceptionLogger logException
+SEVERE: Ошибка
+CustomNumberFormatException: Строка 'hello' не является числом
+	at NumberConverter.convertToNumber(NumberConverter.java:43)
+	at NumberConverter.testConversion(NumberConverter.java:60)
+	at NumberConverter.main(NumberConverter.java:81)
+Caused by: java.lang.NumberFormatException: For input string: "hello"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at NumberConverter.convertToNumber(NumberConverter.java:39)
+	... 2 more
+
+окт. 31, 2025 11:26:03 AM ExceptionLogger logException
+SEVERE: Ошибка
+CustomNumberFormatException: Строка '12a34' не является числом
+	at NumberConverter.convertToNumber(NumberConverter.java:43)
+	at NumberConverter.testConversion(NumberConverter.java:60)
+	at NumberConverter.main(NumberConverter.java:81)
+Caused by: java.lang.NumberFormatException: For input string: "12a34"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at NumberConverter.convertToNumber(NumberConverter.java:39)
+	... 2 more
+
+окт. 31, 2025 11:26:03 AM ExceptionLogger logException
+SEVERE: Ошибка
+CustomNumberFormatException: Строка '' не является числом
+	at NumberConverter.convertToNumber(NumberConverter.java:43)
+	at NumberConverter.testConversion(NumberConverter.java:60)
+	at NumberConverter.main(NumberConverter.java:81)
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:678)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at NumberConverter.convertToNumber(NumberConverter.java:39)
+	... 2 more
+
+окт. 31, 2025 11:26:03 AM ExceptionLogger logException
+SEVERE: Ошибка
+CustomNumberFormatException: Строка '3000000000' не является числом
+	at NumberConverter.convertToNumber(NumberConverter.java:43)
+	at NumberConverter.testConversion(NumberConverter.java:60)
+	at NumberConverter.main(NumberConverter.java:81)
+Caused by: java.lang.NumberFormatException: For input string: "3000000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at NumberConverter.convertToNumber(NumberConverter.java:39)
+	... 2 more
+
